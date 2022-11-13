@@ -4,7 +4,14 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorApp", "BlazorApp\BlazorApp.csproj", "{118E65FE-10F0-4367-833B-99C3F8B67FE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MauiMobileApp", "MauiMobileApp\MauiMobileApp.csproj", "{2F4C1F8D-AEA2-49CC-AAA0-096EED89ECF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MauiMobileApp", "MauiMobileApp\MauiMobileApp.csproj", "{2F4C1F8D-AEA2-49CC-AAA0-096EED89ECF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedPages", "SharedPages\SharedPages.csproj", "{DD7E2BF8-9B40-46F5-A6B5-9ECA5607EE6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0C2C978B-EC02-4C71-AC17-37BD527E5A80}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,6 +29,10 @@ Global
 		{2F4C1F8D-AEA2-49CC-AAA0-096EED89ECF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F4C1F8D-AEA2-49CC-AAA0-096EED89ECF2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2F4C1F8D-AEA2-49CC-AAA0-096EED89ECF2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DD7E2BF8-9B40-46F5-A6B5-9ECA5607EE6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD7E2BF8-9B40-46F5-A6B5-9ECA5607EE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD7E2BF8-9B40-46F5-A6B5-9ECA5607EE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD7E2BF8-9B40-46F5-A6B5-9ECA5607EE6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,11 +4,11 @@
              xmlns:local="clr-namespace:MauiMobileApp"
              x:Class="MauiMobileApp.MainPage"
              BackgroundColor="{DynamicResource PageBackgroundColor}"
-             xmlns:blazorapp="clr-namespace:BlazorApp;assembly=BlazorApp">
+             xmlns:shared="clr-namespace:SharedPages;assembly=SharedPages">
 
     <BlazorWebView x:Name="blazorWebView" HostPage="wwwroot/index.html">
         <BlazorWebView.RootComponents>
-            <RootComponent Selector="#app" ComponentType="{x:Type blazorapp:App}" />
+            <RootComponent Selector="#app" ComponentType="{x:Type shared:App}" />
         </BlazorWebView.RootComponents>
     </BlazorWebView>
 
